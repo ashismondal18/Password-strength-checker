@@ -1,0 +1,11 @@
+password_checker_project/
+│
+├── app.py                  ← Flask app
+├── password_checker.py     ← Your strength checker
+├── templates/              ← HTML templates
+│   ├── register.html
+│   ├── login.html
+│   └── dashboard.html
+├── static/                 ← For CSS (optional)
+│   └── style.css
+└── users.db                ← Will be created automatically
